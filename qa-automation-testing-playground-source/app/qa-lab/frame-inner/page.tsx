@@ -1,0 +1,3 @@
+"use client";
+import { useState } from "react";
+export default function InnerFrame() { const [reserved, setReserved] = useState(false); return <main style={{ fontFamily: "Arial", padding: 18, color: "#18211b" }} data-testid="inner-frame-document"><small>INNER FRAME / INVENTORY</small><h3>AI Upskill Workbook</h3><p data-testid="stock-count">12 units available</p><button onClick={() => setReserved(true)} data-testid="reserve-stock" style={{ border: 0, padding: "10px 14px", background: "#d9ff57", fontWeight: 800 }}>Reserve one unit</button><p role="status" data-testid="reserve-result">{reserved ? "1 unit reserved for OF-2048" : "No unit reserved"}</p></main>; }
