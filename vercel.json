@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://sadwika-alasyam-portfolio.sadwika2525.chatgpt.site/"
+    },
+    {
       "source": "/:path*",
       "destination": "https://sadwika-alasyam-portfolio.sadwika2525.chatgpt.site/:path*"
     }
