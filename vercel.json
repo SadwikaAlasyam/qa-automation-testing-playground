@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "node -e "console.log('QA Playground proxy ready')"",
-  "outputDirectory": "public",
+  "outputDirectory": "qa-automation-testing-playground-source/public",
   "rewrites": [
     {
       "source": "/:path*",
