@@ -1,5 +1,15 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node -e "console.log('QA Playground production ready')"",
+  "outputDirectory": "qa-automation-testing-playground-source/public",
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://sadwika-alasyam-portfolio.sadwika2525.chatgpt.site/:path*"
+    }
+  ]
+}{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "node -e "console.log('QA Playground proxy ready')"",
   "outputDirectory": "qa-automation-testing-playground-source/public",
   "rewrites": [
