@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node -e "console.log('QA Playground proxy ready')"",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://sadwika-alasyam-portfolio.sadwika2525.chatgpt.site/:path*"
+    }
+  ]
+}
